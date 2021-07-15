@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Clase 7</title>
+    <script src="https://kit.fontawesome.com/4de7722395.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header >
+        <div class='contenedorImg'>
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.jvGme2qXXBALJtFEgNNOTgHaLH%26pid%3DApi&f=1" alt="logo">
+        </div>
+        <div>
+            <h1>Curriculum del Grupo 7</h1>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h3 class='titulos'>Datos Personales</h3>
+            <ul>
+                <li><i>Nombre Completo</i>: Grupo 7</li>
+                <li><i>Fecha de Nacimiento</i>: 12/7/2021</li>
+                <li><i>Lugar de Nacimiento</i>: Zoom, DH</li>
+            </ul>
+        </section >
+        <section id='section1'>
+            <h3 class='titulos'>Formacion Academica</h3>
+                <ul type='none'>
+                    <li>
+                        <span> 2021-Actualidad</span>
+                        <ul type='none'>
+                            <li>CDT</li>
+                            <li>Digital House</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span> 2021-Actualidad</span>
+                        <ul type='none'>
+                            <li>Lic. en Casi Todo</li>
+                            <li>Univerisdad del Todo</li>
+                        </ul>
+                    </li>
+                </ul>
+        </section>
+        <section>
+            <h3 class='titulos'>Experiencia Laboral</h3>
+                <ul type='none'>
+                    <li>
+                        <span>2018-Actualidad</span>
+                        <ul type='none'>
+                            <li>Profesor</li>
+                            <li>Digital House</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span>2010-2018</span>
+                        <ul type='none'>
+                            <li>Ayudante</li>
+                            <li>Univerisdad del Todo</li>
+                        </ul>
+                    </li>
+                </ul>
+            
+        </section>
+    </main>
+    <footer id='piePagina'>
+        <span>0810-BATMAN</span>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin"></i>
+    </footer>
+    <?php
+$nombres = array();
+$dnis = array();
+
+do{
+    $dni = readline("Ingrese DNI: ");
+    if($dni >= 0){
+        $nombre = readline("Ingrese nombre: ");
+        $nombres[] = $nombre;
+        $dnis[] = $dni;
+    }
+}while($dni >= 0);
+
+$consulta = readline("Ingrese nombre a buscar: ");
+$existe=false;
+
+for($i=0; $i<count($nombres); $i++){
+    if($consulta == $nombres[$i]){
+        echo $dnis[$i]."\n";
+        $existe=true;
+    }
+}
+
+if(!$existe){
+    echo "No se encontraron coincidencias.\n";
+}
+
+?>
+</body>
+</html>

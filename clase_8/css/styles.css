@@ -1,0 +1,66 @@
+header{
+    background-color: #E6E6E6;
+    height: 20%;
+}
+
+.contenedorTitulo{
+    text-align: center;
+    background-color: #C4C4C4;
+    padding:  0 10px;
+}
+
+.contenedorTitulo h1 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    color: #005677;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section{
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+
+.titulos{
+    background: #C4C4C4;
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+    color: #005677;
+    width: 100%;
+    padding:  0 10px;
+}
+
+a i{
+    margin: 0 5px;
+    color: #FFFFFF;
+}
+
+ul li span,  ul li i{
+    font-weight: bold;
+}
+
+#piePagina {
+    background: #005677;
+    font-size: 20px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding: 10px;
+}
+
