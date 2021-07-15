@@ -64,3 +64,19 @@ ul li span,  ul li i{
     padding: 10px;
 }
 
+.sobreMi{
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobreMi a{
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
