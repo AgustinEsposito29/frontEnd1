@@ -1,0 +1,61 @@
+header{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2, h1{
+    text-align: center;
+}
+.encabezado{
+    background-color: #222222;
+}
+
+.menuNavegacion{
+    background-color: #F0A83E;
+}
+
+.producto{
+    width: 265px;
+    height: 312px;
+    background-color: #FBFAF6;
+}
+
+.sectionImg{
+    text-align:center;
+    background-image: url(https://s3-alpha-sig.figma.com/img/53ec/2946/b101b9298925dcc2ae1d629537e66036?Expires=1626652800&Signature=O5iSmY02HYU9SObYXZtGIUjvqlDS6NLyKl0q3xsUDvZilhNpFX-9~2BGj1HLLpPBhBBFevPuzIxCYsmylMVspcW34X8SVsr-NwDOY0k1jRHXUF1ACOz16YG83TNvuIpnZaDqIBGlbMzDEqzJmSwfQi6tQ~0aqCR8E4BdnXFa5isAit6gYuXa3okvzZvBHDIJVP~DZxkRJ-OOD8hyxP2A0xJJig4nDpOondNInBub1XKoARqyUiXSXZcybVbOe4Y9h3PeXpk8JX4nXZQkDi3QtROgT1WxDogBx0dI0R7lVy~wdRfkcGfDTewiNhIZCUTMcmCx643z5aXWFfD~vjCAsA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+}
+
+.descuento{
+    text-align: center;
+    width: 141px;
+    background: #F0A83E;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.listaProductos li {
+    display: inline-block;
+}
+
+.info{
+    background-color: #3C2313;
+}
+
+.info h3{
+    color: white;
+}
+
+.info p, .info i{
+    color: gray;
+}
+
+footer{
+    background-color: #F0A83E;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
