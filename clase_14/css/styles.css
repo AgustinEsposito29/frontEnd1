@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Para Pantalla completa y media pantalla */
+@media (min-width: 1200px){
+    
+
+    body{
+        min-height: 100vh;
+    }
+
+    /* Header parte Descuentos */
+    .descuentos{
+        height: 2vh;
+        background: #D1891C;
+        display: flex;
+        align-items: center;
+    }
+    .descuentos p{
+        margin-left: 10px;
+        font-size: 20px;
+    }
+
+    /* Header Parte Titulo */
+    .titulo{
+        height: 5vh;
+        background: #00669F;
+        box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+        display: flex;
+        align-items: center;
+    }
+
+    .titulo h1{
+        margin-left: 10px;
+        font-style: normal;
+        font-size: 40px;
+        color: #fff;
+    }
+
+    /* Contenido principal (main) */
+
+    main{
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+
+    /* Cartas */
+    .card{
+        position: relative;
+        background: #F3F3F3;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px 10px 0px 0px;
+        width: 35%;
+        height: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-flow: column wrap;
+    }
+
+    .contenido_carta{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-flow: row wrap;
+        height: 50%;
+    }
+
+    .contenido_carta h3{
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+
+    .contenido_carta p{
+        font-variant: 10px;
+        text-align: justify;
+        margin: 0px 30px;
+
+    }
+    /* Boton */
+    .btn_verMas{
+        background: #00669F;
+        border-radius: 7px;
+        padding: 20px 45px;
+        font-size: 18px;
+        color: #fff
+    }
+
+    /* Imagenes Carta */
+    .card_imagenes{
+        height: 40%;
+        width: 100%;
+        background-image: url('/img/fondo_batman.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .fondoHarley{
+        height: 40%;
+        width: 100%;
+        background-image: url('/img/fondo_mujer.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    /* Foto Perfil */
+    .foto_perfil{
+        position: absolute;
+        border-radius: 50%;
+        top: 25%;
+    }
+
+    /* Corazon de Me gusta */
+    .corazon{
+        position: absolute;
+        font-size: 30px;
+        color: red;
+        top: 35px;
+        left: 15px
+    }
+
+       /* Icono de Mas */
+    .masIcon{
+        position: fixed;
+        font-size: 50px;
+        color: #00669F;
+        right: 20px;
+
+    }
+
+    /* Footer */
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 3vh;
+        background-color: #00669F;
+        color: #fff;
+        font-size: 20px;
+    }
+}
+
+/* -----------------------------------------Para Mobile -------------------------------------------------*/
+
+@media (max-width: 480px) {  
+
+    /* body{
+        min-height: 100vh;
+    } */
+
+    /* Header parte Descuentos */
+    .descuentos{
+        height: 2vh;
+        background: #D1891C;
+        display: flex;
+        align-items: center;
+    }
+    .descuentos p{
+        margin-left: 10px;
+        font-size: 15px;
+    }
+
+    /* Header Parte Titulo */
+    .titulo{
+        height: 5vh;
+        background: #00669F;
+        box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+        display: flex;
+        align-items: center;
+    }
+
+    .titulo h1{
+        margin-left: 10px;
+        font-style: normal;
+        font-size: 30px;
+        color: #fff;
+    }
+
+    /* Contenido principal (main) */
+
+    main{
+        display: flex;
+        align-items: center;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+        /* Cartas */
+        .card{
+            position: relative;
+            background: #F3F3F3;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 10px 10px 0px 0px;
+            width: 70%;
+            height: 500px;
+            margin: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-flow: column wrap;
+        }
+
+        .contenido_carta{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-flow: row wrap;
+            height: 60%;
+        }
+    
+        .contenido_carta h3{
+            font-size: 20px;
+            text-transform: uppercase;
+        }
+    
+        .contenido_carta p{
+            font-variant: 10px;
+            text-align: justify;
+            margin: 0px 30px;
+            font-size: 10px;
+    
+        }
+        /* Boton */
+        .btn_verMas{
+            background: #00669F;
+            border-radius: 7px;
+            padding: 10px 25px;
+            font-size: 10px;
+            color: #fff
+        }
+    
+        /* Imagenes Carta */
+        .card_imagenes{
+            height: 40%;
+            width: 100%;
+            background-image: url('/img/fondo_batman.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    
+        .fondoHarley{
+            height: 40%;
+            width: 100%;
+            background-image: url('/img/fondo_mujer.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    
+        /* Foto Perfil */
+        .foto_perfil{
+            position: absolute;
+            border-radius: 50%;
+            top: 25%;
+            width: 80px;
+        }
+    
+        /* Corazon de Me gusta */
+        .corazon{
+            position: absolute;
+            font-size: 25px;
+            color: red;
+            top: 25px;
+            left: 15px
+        }
+
+        /* Icono de Mas */
+        .masIcon{
+            position: fixed;
+            font-size: 35px;
+            color: #00669F;
+            right: 10px;
+
+        }
+    
+        /* Footer */
+        footer{
+            height: 8vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #00669F;
+            color: #fff;
+            font-size: 16px;
+        }
+}
+
+
