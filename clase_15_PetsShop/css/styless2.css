@@ -10,13 +10,21 @@
         background-color: #222222;
         width: 100%;
         display: flex;
-        padding: 5px 0px;
+        padding: 10px 0px;
         justify-content: space-between;
         align-items: center;
         color: #FFF;
     }
 
+    .ofertasTexto{
+        width: 50%;
+    }
+    .ofertasTexto p{
+        margin-left: 10px;
+    }
+
     .idiomas ul{
+        margin-right: 30px;
         list-style: none;
         display: flex;
         width: 200px;
@@ -40,11 +48,17 @@
         justify-content: left;
         margin-left: 10px;
     }
+
+    .contenedorLogo img{
+        width: 20%;
+    }
+
     .navList{
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
         width: 50%;
+        margin-right: 30px;
     }
     
     .navList li{
