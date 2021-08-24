@@ -1,0 +1,162 @@
+header {
+  height: 10vh;
+  background-color: #E6E6E6;
+}
+
+header .contenedorTitulo {
+  height: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #C4C4C4;
+}
+
+header .contenedorTitulo .nombreTitulo {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-family: Times New Roman;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  color: #005677;
+}
+
+header .navList {
+  list-style: none;
+  height: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .navList li {
+  margin: 0px 30px;
+}
+
+header .navList li a {
+  color: #005677;
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+main {
+  height: 78vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+main .informacion {
+  width: 60%;
+}
+
+main .informacion h2 {
+  background: #C4C4C4;
+  font-family: Times New Roman;
+  font-style: normal;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 30px;
+  color: #005677;
+  width: 100%;
+  padding: 10px 20px;
+}
+
+main .informacion ul {
+  list-style: square;
+}
+
+main .informacion ul li {
+  font-size: 25px;
+  margin: 15px 0px;
+}
+
+main .informacion ul li span {
+  font-weight: bold;
+  font-style: italic;
+}
+
+main .informacion ul li ul {
+  list-style: inside;
+}
+
+main .informacion ul li ul li {
+  font-style: oblique;
+}
+
+footer {
+  height: 10vh;
+  background: #005677;
+  font-size: 20px;
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .contenidoFooter {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .contenidoFooter span {
+  font-size: 20px;
+}
+
+footer .contenidoFooter ul {
+  list-style: none;
+  width: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer .contenidoFooter ul li a i {
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=main_styles.css.map */
